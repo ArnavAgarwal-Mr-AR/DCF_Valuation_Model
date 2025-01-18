@@ -4,5 +4,3 @@ scikit-learn
 streamlit
 matplotlib
 reportlab==4.2.5
-io
-os
