@@ -94,14 +94,6 @@ def generate_report(general_data, historical_data, forecast_data, dcf_data):
     elements.append(title)
     elements.append(Spacer(1, 12))
 
-    # Summary
-    #summary = Paragraph(
-    #    "This report includes financial projections, discounted cash flow analysis, and Monte Carlo simulations based on the provided data.",
-    #    styles['BodyText']
-    #)
-    #elements.append(summary)
-    #elements.append(Spacer(1, 12))
-
     #Adding general data to tables
     gen_column_widths = [120, 70]
     dataframe_to_table(general_data, "Ticker Data", elements, styles, column_widths=gen_column_widths, font_size=9)
@@ -126,13 +118,9 @@ def generate_report(general_data, historical_data, forecast_data, dcf_data):
     else:
         elements.append(Paragraph("Monte Carlo simulation image is not available.", styles['BodyText']))
 
-    #elements.append(Spacer(1, 12))
-
     # Build the PDF
     doc.build(elements)
-
     # Retrieve binary content
     pdf_content = buffer.getvalue()
     buffer.close()
-
     return pdf_content
