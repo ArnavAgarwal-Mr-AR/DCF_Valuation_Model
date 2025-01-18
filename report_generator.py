@@ -90,7 +90,7 @@ def generate_report(general_data, historical_data, forecast_data, dcf_data):
     styles = getSampleStyleSheet()
 
     # Title
-    title = Paragraph("Financial Analysis Report For Your Asked Stock", styles['Title'])
+    title = Paragraph("Financial Analysis Report For Asked Stock", styles['Title'])
     elements.append(title)
     elements.append(Spacer(1, 12))
 
