@@ -12,11 +12,11 @@ Welcome to the DCF Valuation Model repository. This project is designed to perfo
 ```mermaid
 flowchart TB
     %% Styles
-    classDef input fill:#B3E0FF,stroke:#333,stroke-width:2px
-    classDef processing fill:#90EE90,stroke:#333,stroke-width:2px
-    classDef analysis fill:#FFE5B4,stroke:#333,stroke-width:2px
-    classDef output fill:#DDA0DD,stroke:#333,stroke-width:2px
-    classDef storage fill:#D3D3D3,stroke:#333,stroke-width:2px
+    classDef input fill:#000099,stroke:#333,stroke-width:2px
+    classDef processing fill:#913f7a,stroke:#333,stroke-width:2px
+    classDef analysis fill:#88a000,stroke:#333,stroke-width:2px
+    classDef output fill:#be4d25,stroke:#333,stroke-width:2px
+    classDef storage fill:#640bbf,stroke:#333,stroke-width:2px
     
     %% Input Layer
     subgraph Input
@@ -50,14 +50,6 @@ flowchart TB
     DCF --> Report
     Report --> Visual
     Report --> Export
-    
-    %% Click Events
-    click DataHandler "https://github.com/ArnavAgarwal-Mr-AR/DCF_Valuation_Model/blob/main/data_processing.py"
-    click DataProc "https://github.com/ArnavAgarwal-Mr-AR/DCF_Valuation_Model/blob/main/data_processing.py"
-    click Forecast "https://github.com/ArnavAgarwal-Mr-AR/DCF_Valuation_Model/blob/main/forecasting.py"
-    click Monte "https://github.com/ArnavAgarwal-Mr-AR/DCF_Valuation_Model/blob/main/monte.py"
-    click DCF "https://github.com/ArnavAgarwal-Mr-AR/DCF_Valuation_Model/blob/main/dcf_calculation.py"
-    click Report "https://github.com/ArnavAgarwal-Mr-AR/DCF_Valuation_Model/blob/main/report_generator.py"
 
 ```
 
