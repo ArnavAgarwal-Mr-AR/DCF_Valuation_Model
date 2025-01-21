@@ -1,14 +1,15 @@
-# DCF_Valuation_Model
-The model predicts the DCF valuation of any entered stock by taking information of past 3 years of that stock. It then projects the next 10 years of data using Monte Carlo simulation.
-
-[![Discounted Cash Flow (DCF) calculations with monte-carlo simulations in python | Stock Analysis](https://img.youtube.com/vi/Qt-FsYG-IGI/0.jpg)](https://www.youtube.com/watch?v=Qt-FsYG-IGI&autoplay=1)
-
 # Discounted Cash Flow (DCF) Valuation Model
 
 Welcome to the DCF Valuation Model repository. This project is designed to perform comprehensive financial forecasting and valuation using the Discounted Cash Flow methodology.
 
-## Directory Structure
+## Youtube Explanation
+[![Discounted Cash Flow (DCF) calculations with monte-carlo simulations in python | Stock Analysis](https://img.youtube.com/vi/Qt-FsYG-IGI/0.jpg)](https://www.youtube.com/watch?v=Qt-FsYG-IGI&autoplay=1)
 
+## Try it here 
+[Streamlit]([www.google.com](https://dcf-valuation-model.streamlit.app/))
+
+
+## Workflow
 ```mermaid
 flowchart TB
     %% Styles
@@ -53,6 +54,7 @@ flowchart TB
 
 ```
 
+## Directory Structure
 ```
 arnavagarwal-mr-ar-dcf_valuation_model/
 ├── app.py                # Main application file to integrate the modules
@@ -62,41 +64,6 @@ arnavagarwal-mr-ar-dcf_valuation_model/
 ├── monte.py              # Monte Carlo simulations for sensitivity analysis
 └── report_generator.py   # Generate reports based on DCF analysis
 ```
-
-## Modules Overview
-
-### 1. **app.py**
-This is the entry point of the application. It coordinates the flow between modules and ensures seamless execution of the valuation process.
-
-### 2. **data_processing.py**
-Handles data ingestion, cleaning, and preparation. Ensures that the input financial data is in the correct format and ready for analysis.
-
-### 3. **dcf_calculation.py**
-Implements the Discounted Cash Flow methodology, including calculations for:
-- Free Cash Flow (FCF)
-- Discount Rate (Weighted Average Cost of Capital)
-- Terminal Value
-
-### 4. **forecasting.py**
-Provides tools for financial forecasting based on historical data and assumptions about future performance. 
-
-### 5. **monte.py**
-Runs Monte Carlo simulations to evaluate the sensitivity of the valuation to various input assumptions.
-
-### 6. **report_generator.py**
-Generates detailed reports summarizing the valuation results, assumptions, and analysis outputs.
-
-## Getting Started
-
-### Prerequisites
-- Python 3.9+
-- Required libraries are listed in `requirements.txt`. Install them using:
-
-
-
-### Running the Application
-1. Ensure all dependencies are installed.
-2. Run the main application:
 
 
 
@@ -114,6 +81,21 @@ Contributions are welcome! Please follow these steps:
 3. Commit your changes (`git commit -m 'Add some feature'`).
 4. Push to the branch (`git push origin feature/my-feature`).
 5. Open a Pull Request.
+
+## Contact me 📪
+<div id="badges">
+  <a href="https://www.linkedin.com/in/arnav-agarwal-571a59243/" target="blank">
+   <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+ <a href="https://www.instagram.com/arnav_executes?igsh=MWUxaWlkanZob2lqeA==" target="blank">
+ <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"  alt="Instagram Badge" />
+ </a>
+ </a>
+ <a href="https://medium.com/@arumynameis" target="blank">
+ <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"  alt="Medium Badge" />
+ </a>
+</div>
+
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
