@@ -6,7 +6,7 @@ Welcome to the DCF Valuation Model repository. This project is designed to perfo
 [![Discounted Cash Flow (DCF) calculations with monte-carlo simulations in python | Stock Analysis](https://img.youtube.com/vi/Qt-FsYG-IGI/0.jpg)](https://www.youtube.com/watch?v=Qt-FsYG-IGI&autoplay=1)
 
 ## Try it here 
-[Streamlit]([www.google.com](https://dcf-valuation-model.streamlit.app/))
+Feel free to [try it here](https://dcf-valuation-model.streamlit.app/)
 
 
 ## Workflow
