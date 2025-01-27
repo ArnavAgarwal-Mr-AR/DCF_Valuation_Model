@@ -100,5 +100,4 @@ Contributions are welcome! Please follow these steps:
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgements
-Special thanks to all contributors and the financial modeling community for their support and guidance.
+
